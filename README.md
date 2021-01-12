@@ -20,6 +20,6 @@ That equals hex-word 0x004F, according to table:
  N/A   |  Bit11   |  Bit10 |  Bit9    |  Bit8
  LED3  |  Bit15   |  Bit14 |  Bit13   |  Bit12
 ```
-If you want a different behavior, just change the hex-word in file r8168_n.c under section "Enable Custom LEDs".\
+If you want a different behavior, just change the hex-word in file r8168_n.c under section "Enable Custom LEDs".
 
-Files "Realtek_" are the original files in the driver package from Realtek, https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Files "Realtek_" are the original files from the driver package, https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
