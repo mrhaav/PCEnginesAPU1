@@ -1,5 +1,18 @@
 # OpenWrt and PC Engines APU1 project:
 
+**ME909s-120**
+
+Enable Huawei ME909s-120 PCI modem. Install packages:
+```
+kmod-usb-net-cdc-ether
+kmod-usb-serial-option
+comgt-ncm
+```
+Copy getruncommand.gcom to /etc/gcom.\
+Copy huaweiME909s-120.sh to /etc, or any folder of your choice, and edit the APN to your local APN and DEV to your modem.\
+
+
+
 **apu1-leds_buttom**
 
 Kernel module to access the three front LEDs and the push button.\
