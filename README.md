@@ -20,6 +20,8 @@ Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
 `sh /<your destination>/huaweiME909s-120.sh`\
 \
+Reboot\
+\
 \
 **apu1-leds_buttom**
 
