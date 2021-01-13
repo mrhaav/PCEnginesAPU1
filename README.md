@@ -15,9 +15,10 @@ Create the wwan interface:\
 Network - Interfaces - Add new interface...\
 General Settings - Protocol: DHCP client. Physical Settings - Interface: wwan0.
 \
+\
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
-`sh /<your destination>/huaweiME909s-120.sh`
+`sh /<your destination>/huaweiME909s-120.sh`\
 \
 \
 **apu1-leds_buttom**
