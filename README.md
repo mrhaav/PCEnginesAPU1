@@ -13,8 +13,8 @@ Copy huaweiME909s-120.sh to /etc, or any folder of your choice, and edit the APN
 \
 Create the wwan interface:\
 Network - Interfaces - Add new interface...\
-&nbsp;General Settings - Protocol: DHCP client.\
-&nbsp;Physical Settings - Interface: wwan0.\
+&nbsp;&nbsp;&nbsp;General Settings - Protocol: DHCP client.\
+&nbsp;&nbsp;&nbsp;Physical Settings - Interface: wwan0.\
 
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
