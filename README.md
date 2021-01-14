@@ -13,8 +13,8 @@ Copy huaweiME909s-120.sh to /etc, or any folder of your choice, and edit the APN
 \
 Create the wwan interface:\
 Network - Interfaces - Add new interface...\
->General Settings - Protocol: DHCP client.\
->Physical Settings - Interface: wwan0.\
+General Settings - Protocol: DHCP client.\
+Physical Settings - Interface: wwan0.\
 \
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
@@ -36,13 +36,14 @@ NIC drivers to Realtek RTL8111E with support for customized LEDs.\
 The APU1 board has LED0 (green) and LED1 (amber) connected. Default flashes LED0 for network activity, for all speeds, and LED1 is lit for Link100M.
 I have change the drivers so LED0 is lit for Link, all speeds, and flashes for network activity, all speeds, and LED1 is lit for Link1G.\
 That equals hex-word 0x004F, according to table:
-```
-       | Activity | Link1G | Link100M | Link10M
- LED0  |  Bit3    |  Bit2  |  Bit1    |  Bit0
- LED1  |  Bit7    |  Bit6  |  Bit5    |  Bit4
- N/A   |  Bit11   |  Bit10 |  Bit9    |  Bit8
- LED3  |  Bit15   |  Bit14 |  Bit13   |  Bit12
-```
+
+|      | Activity | Link1G | Link100M | Link10M |
+| --- | --- | --- | --- | --- | 
+| LED0  |  Bit3    |  Bit2  |  Bit1    |  Bit0 |
+| LED1  |  Bit7    |  Bit6  |  Bit5    |  Bit4 |
+| N/A   |  Bit11   |  Bit10 |  Bit9    |  Bit8 |
+| LED3  |  Bit15   |  Bit14 |  Bit13   |  Bit12 |
+
 If you want a different behavior, just change the hex-word in file r8168_n.c under section "Enable Custom LEDs".
 
 Files "Realtek_" are the original files from the driver package, https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
