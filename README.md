@@ -38,11 +38,11 @@ I have change the drivers so LED0 is lit for Link, all speeds, and flashes for n
 That equals hex-word 0x004F, according to table:
 
 |      | Activity | Link1G | Link100M | Link10M |
-| --- | --- | --- | --- | --- | 
-| LED0  |  Bit3    |  Bit2  |  Bit1    |  Bit0 |
-| LED1  |  Bit7    |  Bit6  |  Bit5    |  Bit4 |
-| N/A   |  Bit11   |  Bit10 |  Bit9    |  Bit8 |
-| LED3  |  Bit15   |  Bit14 |  Bit13   |  Bit12 |
+| --- | :---: | :---: | :---: | :---: | 
+| LED0 | Bit3 | Bit2 | Bit1 | Bit0 |
+| LED1 | Bit7 | Bit6 | Bit5 | Bit4 |
+| N/A | Bit11 | Bit10 | Bit9 | Bit8 |
+| LED3 | Bit15 | Bit14 | Bit13 | Bit12 |
 
 If you want a different behavior, just change the hex-word in file r8168_n.c under section "Enable Custom LEDs".
 
