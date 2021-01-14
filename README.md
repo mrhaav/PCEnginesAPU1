@@ -1,5 +1,16 @@
 # OpenWrt and PC Engines APU1 project:
 
+Check for latest firmware at: https://pcengines.github.io/
+\
+\
+**GPIO:**
+`kmod-gpio-nct5104d`
+\
+\
+**Temperature sensor:**
+`lm-sensors`
+\
+\
 **ME909s-120**
 
 How to enable Huawei ME909s-120 PCI modem. ME909s-120 doesn´t support QMI. Install packages:
@@ -13,8 +24,8 @@ Copy huaweiME909s-120.sh to /etc, or any folder of your choice, and edit the APN
 \
 Create the wwan interface:\
 Network - Interfaces - Add new interface...\
-&nbsp;&nbsp;&nbsp;General Settings - Protocol: DHCP client.\
-&nbsp;&nbsp;&nbsp;Physical Settings - Interface: wwan0.\
+&nbsp;&nbsp;&nbsp;General Settings - Protocol: DHCP client\
+&nbsp;&nbsp;&nbsp;Physical Settings - Interface: wwan0\
 \
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
