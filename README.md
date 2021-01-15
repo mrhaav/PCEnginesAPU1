@@ -23,10 +23,11 @@ comgt-ncm
 Copy getruncommand.gcom to /etc/gcom.\
 Copy huaweiME909s-120.sh to /etc, or any folder of your choice, and edit the APN to your local APN and DEV to your modem. You need to make huaweiME909s-120.sh executable `chmod +x huaweiME909s-120.sh`\
 \
-Create the wwan interface:\
-Network - Interfaces - Add new interface...\
-&nbsp;&nbsp;&nbsp;General Settings - Protocol: DHCP client\
-&nbsp;&nbsp;&nbsp;Physical Settings - Interface: wwan0\
+Add new interface...\
+Name: wwan\
+&nbsp;&nbsp;&nbsp;Protocol: DHCP client\
+&nbsp;&nbsp;&nbsp;Interface: wwan0\
+Firewall Seetings: Create / Assign firewall-zone: add wwan to same zone as wan\
 \
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
