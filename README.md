@@ -3,6 +3,10 @@
 Check for latest firmware at: https://pcengines.github.io/
 \
 \
+**Watchdog:**
+`kmod-sp5100_tco`
+\
+\
 **GPIO:**
 `kmod-gpio-nct5104d`
 \
@@ -31,7 +35,7 @@ Firewall Seetings: Create / Assign firewall-zone: add wwan to same zone as wan\
 \
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
-`sh /<your destination>/huaweiME909s-120.sh`\
+`sh /<your folder>/huaweiME909s-120.sh`\
 \
 Reboot\
 \
