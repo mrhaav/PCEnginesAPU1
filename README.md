@@ -31,7 +31,7 @@ Add new interface...\
 Name: wwan\
 &nbsp;&nbsp;&nbsp;Protocol: DHCP client\
 &nbsp;&nbsp;&nbsp;Interface: wwan0\
-Firewall Seetings: Create / Assign firewall-zone: add wwan to same zone as wan\
+Firewall Settings: Create / Assign firewall-zone: add wwan to same zone as wan\
 \
 Execute huaweiME909s-120.sh at startup:\
 System - Startup - Local Startup\
