@@ -15,6 +15,8 @@ Check for latest firmware at: https://pcengines.github.io/
 `lm-sensors`
 \
 \
+**Loopia API**
+
 \
 **ME909s-120**
 
