@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+  <methodName>getZoneRecords</methodName>
+  <params>
+    <param>
+      <value>user@loopiaapi</value>
+    </param>
+    <param>
+      <value>password</value>
+    </param>
+    <param>
+      <value>domain.com</value>
+    </param>
+    <param>
+      <value>subdomain</value>
+    </param>
+  </params>
+</methodCall>
