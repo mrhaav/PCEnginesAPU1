@@ -4,7 +4,7 @@ Check for latest firmware at: https://pcengines.github.io/
 \
 \
 **Watchdog:**
-`kmod-sp5100_tco`
+`kmod-sp5100-tco`
 \
 \
 **GPIO:**
