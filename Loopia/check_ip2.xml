@@ -3,16 +3,16 @@
   <methodName>getZoneRecords</methodName>
   <params>
     <param>
-      <value>mrhaav@loopiaapi</value>
+      <value>user@loopiaapi</value>
     </param>
     <param>
-      <value>Openwrt.Router9</value>
+      <value>password</value>
     </param>
     <param>
-      <value>ginstmark.se</value>
+      <value>domain.com</value>
     </param>
     <param>
-      <value>ip2</value>
+      <value>subdomain</value>
     </param>
   </params>
 </methodCall>
