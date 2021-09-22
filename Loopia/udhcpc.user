@@ -1,0 +1,6 @@
+# logger -t udhcp.d Interface ${interface} ${J_V_interface} IPaddress ${ip} Lease ${lease} ${dhcptype} ${message}
+
+if [ ${interface} = 'eth0' ] && [ ! -z ${ip} ] 
+then
+	sh <path_to>/loopia.sh domain ${ip}
+fi
