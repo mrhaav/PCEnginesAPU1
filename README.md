@@ -16,6 +16,9 @@ Check for latest firmware at: https://pcengines.github.io/
 \
 \
 **Loopia API**
+Hotplug script for updating Loopia DNS via LoopiaAPI. https://www.loopia.com/api/
+In `udhcpc.user` 
+You need to install curl and libxml2-utils.
 
 \
 **ME909s-120**
