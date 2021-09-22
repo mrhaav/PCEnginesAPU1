@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<methodCall>
+  <methodName>getZoneRecords</methodName>
+  <params>
+    <param>
+      <value>mrhaav@loopiaapi</value>
+    </param>
+    <param>
+      <value>Openwrt.Router9</value>
+    </param>
+    <param>
+      <value>ginstmark.se</value>
+    </param>
+    <param>
+      <value>ip2</value>
+    </param>
+  </params>
+</methodCall>
