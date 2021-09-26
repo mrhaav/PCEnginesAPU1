@@ -15,6 +15,7 @@ Check for latest firmware at: https://pcengines.github.io/
 `lm-sensors`
 \
 \
+\
 **Loopia API**
 
 Hotplug script for updating Loopia DNS via LoopiaAPI, https://www.loopia.com/api/ \
