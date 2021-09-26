@@ -15,7 +15,8 @@ Check for latest firmware at: https://pcengines.github.io/
 `lm-sensors`
 \
 \
-**Loopia API**\
+**Loopia API**
+
 Hotplug script for updating Loopia DNS via LoopiaAPI. https://www.loopia.com/api/ \
 `udhcpc.user` is triggered when the dhcp client is updating the IP-address.\
 Copy `udhcpc.user` to `/etc` and `loopia.sh` to any folder of your choice. In `udhcpc.user` you have to map the interface to your domain_name to be updated. In `loopia.sh` you need to edit your username and password to LoopiaAPI.  \
